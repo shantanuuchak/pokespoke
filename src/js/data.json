@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back.",
+    "link": "https://www.pokemon.com/us/pokedex/bulbasaur"
+  },
+  {
+    "name": "Charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "description": "Charmander has a flame on its tail, which burns brightly as its mood changes.",
+    "link": "https://www.pokemon.com/us/pokedex/charmander"
+  },
+  {
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "description": "Squirtle's shell is not just for protection. Its round shape minimizes resistance in water.",
+    "link": "https://www.pokemon.com/us/pokedex/squirtle"
+  },
+  {
+    "name": "Pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    "description": "Pikachu stores electricity in its cheeks for zapping an enemy if threatened.",
+    "link": "https://www.pokemon.com/us/pokedex/pikachu"
+  },
+  {
+    "name": "Jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    "description": "Jigglypuff's vocal cords allow it to sing lullabies that cause its enemies to fall asleep.",
+    "link": "https://www.pokemon.com/us/pokedex/jigglypuff"
+  },
+  {
+    "name": "Meowth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+    "description": "Meowth withdraws its sharp claws into its paws to silently sneak up on its prey.",
+    "link": "https://www.pokemon.com/us/pokedex/meowth"
+  },
+  {
+    "name": "Psyduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+    "description": "Psyduck uses psychic powers, but it cannot remember doing so, leaving it puzzled.",
+    "link": "https://www.pokemon.com/us/pokedex/psyduck"
+  },
+  {
+    "name": "Machop",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+    "description": "Machop's muscles never tire, no matter how much it exercises.",
+    "link": "https://www.pokemon.com/us/pokedex/machop"
+  },
+  {
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    "description": "Gengar hides in shadows. It absorbs the warmth of those around it to create a chill.",
+    "link": "https://www.pokemon.com/us/pokedex/gengar"
+  },
+  {
+    "name": "Eevee",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+    "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment.",
+    "link": "https://www.pokemon.com/us/pokedex/eevee"
+  },
+  {
+    "name": "Snorlax",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+    "description": "Snorlax only wakes up to eat and barely moves unless it has consumed 900 pounds of food.",
+    "link": "https://www.pokemon.com/us/pokedex/snorlax"
+  },
+  {
+    "name": "Mewtwo",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    "description": "Mewtwo was created by a scientist after years of horrific gene splicing and DNA engineering.",
+    "link": "https://www.pokemon.com/us/pokedex/mewtwo"
+  }
+]
