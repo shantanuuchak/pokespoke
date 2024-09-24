@@ -7,7 +7,7 @@ export default function (src, name, description, visit) {
           alt="${name}"
       />
       <div class="card-body">
-          <h5 class="card-title">${name}</h5>
+          <h2 class="card-title">${name}</h5>
           <p class="card-text">
           ${description}
           </p>
