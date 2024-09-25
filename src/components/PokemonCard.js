@@ -11,7 +11,10 @@ export default function (src, name, description, visit) {
           <p class="card-text">
           ${description}
           </p>
-          <a href="${visit}" target="_blank" class="btn btn-primary">Visit</a>
+          ${
+            visit &&
+            `<a href="${visit}" target="_blank" class="btn btn-primary">Visit</a>`
+          }
       </div>
     </div>
   `;
