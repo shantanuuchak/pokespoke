@@ -1,4 +1,5 @@
 // ====== General Imports ======
+import shuffle from "array-shuffle";
 import data from "./data.json";
 import PokemonCard from "../components/PokemonCard";
 
@@ -68,5 +69,5 @@ document.addEventListener("DOMContentLoaded", () => {
     return PokemonCard(image, name, description, link);
   });
 
-  renderPokemon(pokemonCollection);
+  renderPokemon(shuffle(pokemonCollection));
 });

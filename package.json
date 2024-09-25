@@ -13,6 +13,7 @@
     "parcel": "^2.12.0"
   },
   "dependencies": {
+    "array-shuffle": "^3.0.0",
     "path": "^0.12.7"
   }
 }
