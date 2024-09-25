@@ -41,6 +41,7 @@ function handleChange(value) {
     }
   );
 
+  // Render fallback when no matching pokemon found
   if (pokecardsList.length === 0) {
     pokecardsList.push(
       PokemonCard(
