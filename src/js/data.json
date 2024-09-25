@@ -6,12 +6,6 @@
     "link": "https://www.pokemon.com/us/pokedex/bulbasaur"
   },
   {
-    "name": "Charmander",
-    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
-    "description": "Charmander has a flame on its tail, which burns brightly as its mood changes.",
-    "link": "https://www.pokemon.com/us/pokedex/charmander"
-  },
-  {
     "name": "Squirtle",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     "description": "Squirtle's shell is not just for protection. Its round shape minimizes resistance in water.",
@@ -34,6 +28,103 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
     "description": "Meowth withdraws its sharp claws into its paws to silently sneak up on its prey.",
     "link": "https://www.pokemon.com/us/pokedex/meowth"
+  },
+  {
+    "name": "Psyduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+    "description": "Psyduck uses psychic powers, but it cannot remember doing so, leaving it puzzled.",
+    "link": "https://www.pokemon.com/us/pokedex/psyduck"
+  },
+  {
+    "name": "Machop",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+    "description": "Machop's muscles never tire, no matter how much it exercises.",
+    "link": "https://www.pokemon.com/us/pokedex/machop"
+  },
+  {
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    "description": "Gengar hides in shadows. It absorbs the warmth of those around it to create a chill.",
+    "link": "https://www.pokemon.com/us/pokedex/gengar"
+  },
+  {
+    "name": "Eevee",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+    "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment.",
+    "link": "https://www.pokemon.com/us/pokedex/eevee"
+  },
+  {
+    "name": "Snorlax",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+    "description": "Snorlax only wakes up to eat and barely moves unless it has consumed 900 pounds of food.",
+    "link": "https://www.pokemon.com/us/pokedex/snorlax"
+  },
+  {
+    "name": "Mewtwo",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    "description": "Mewtwo was created by a scientist after years of horrific gene splicing and DNA engineering.",
+    "link": "https://www.pokemon.com/us/pokedex/mewtwo"
+  },
+
+  {
+    "name": "Cyndaquil",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
+    "description": "Cyndaquil stores heat in its back and breathes fire. It is timid but explodes in anger if threatened.",
+    "link": "https://www.pokemon.com/us/pokedex/cyndaquil"
+  },
+  {
+    "name": "Bulbasaur's rival",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "description": "This Pokemon is a grass-type starter known for its fiery tail.",
+    "link": "https://www.pokemon.com/us/pokedex/charmander"
+  },
+  {
+    "name": "Totodile",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
+    "description": "Totodile is energetic and brave. It chomps at anything with its large, pointed jaws.",
+    "link": "https://www.pokemon.com/us/pokedex/totodile"
+  },
+  {
+    "name": "Mudkip",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
+    "description": "Mudkip walks on the seabed using its fins. It can breathe underwater by using its gills.",
+    "link": "https://www.pokemon.com/us/pokedex/mudkip"
+  },
+  {
+    "name": "Clefairy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+    "description": "Clefairy uses the moonlight to store up energy. On a full moonlit night, it can use Telekinesis.",
+    "link": "https://www.pokemon.com/us/pokedex/clefairy"
+  },
+  {
+    "name": "Vulpix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+    "description": "Vulpix has six tails and can control fire with great precision. It uses nine tails to create illusions that trap foes.",
+    "link": "https://www.pokemon.com/us/pokedex/vulpix"
+  },
+  {
+    "name": "Abra",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+    "description": "Abra dislikes being looked at. It uses its psychic powers to teleport away when it feels threatened.",
+    "link": "https://www.pokemon.com/us/pokedex/abra"
+  },
+  {
+    "name": "Ponyta",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+    "description": "Ponyta is very popular. Its fiery mane is said to bring good luck. Trainers often ride them.",
+    "link": "https://www.pokemon.com/us/pokedex/ponyta"
+  },
+  {
+    "name": "Larvitar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png",
+    "description": "Larvitar eats a mountain's worth of soil each day. It tunnels through the ground and rarely surfaces.",
+    "link": "https://www.pokemon.com/us/pokedex/larvitar"
+  },
+  {
+    "name": "Riolu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png",
+    "description": "Riolu trains diligently in harsh mountains. It can sense auras and predict an opponent's moves.",
+    "link": "https://www.pokemon.com/us/pokedex/"
   },
   {
     "name": "Psyduck",
