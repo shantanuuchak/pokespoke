@@ -59,8 +59,14 @@ function handleChange(value) {
 }
 
 // ====== Add listeners ======
+// Debouncer Implmentation
+let debounceTimer;
 searchEl.addEventListener("input", (e) => {
-  handleChange(e.target.value);
+  clearTimeout(debounceTimer);
+
+  debounceTimer = setTimeout(() => {
+    handleChange(e.target.value);
+  }, 300);
 });
 
 document.addEventListener("DOMContentLoaded", () => {
