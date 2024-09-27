@@ -65,7 +65,7 @@ searchEl.addEventListener("input", (e) => {
   clearTimeout(debounceTimer);
 
   debounceTimer = setTimeout(() => {
-    handleChange(e.target.value);
+    handleChange(e.target.value.trim());
   }, 300);
 });
 
