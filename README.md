@@ -2,6 +2,8 @@
 
 Displays Pokémon cards from the `data.json` file.
 
+![image](/ProductDemo.png)
+
 ## Features
 
 - **Keyboard Accessibility**: Press `/` to quickly focus on the search bar.
