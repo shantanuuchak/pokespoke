@@ -77,3 +77,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderPokemon(shuffle(pokemonCollection));
 });
+
+document.addEventListener("keypress", (e) => {
+  if (e.key === "/") {
+    // Don't type
+    e.preventDefault();
+    searchEl.focus();
+  }
+});
