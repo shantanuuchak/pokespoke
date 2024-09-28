@@ -48,12 +48,20 @@ function handleChange(value) {
     threshold: 0.5,
   };
   const fuse = new Fuse(data, options);
-  const filteredPokemon = fuse.search(value); // this stores in 'item' key
+
+  // Function to perform filteration
+  function performeFilter() {
+    if (!value.trim()) return data;
+
+    return fuse.search(value).map((result) => result.item); // this stores in 'item' key
+  }
+
+  const filteredPokemon = performeFilter();
 
   console.log(filteredPokemon);
 
   // Generate list of PokemonCards
-  const pokecardsList = filteredPokemon.map(({ item }) => {
+  const pokecardsList = filteredPokemon.map((item) => {
     return PokemonCard(item.image, item.name, item.description, item.link);
   });
 
