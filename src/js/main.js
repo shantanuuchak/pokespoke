@@ -1,5 +1,8 @@
-// ====== General Imports ======
+// ====== Packages ======
 import shuffle from "array-shuffle";
+import Fuse from "fuse.js";
+
+// ====== General Imports ======
 import data from "./data.json";
 import PokemonCard from "../components/PokemonCard";
 
@@ -29,18 +32,30 @@ function renderPokemon(list) {
   });
 }
 
+// This function runs when input value changes
 function handleChange(value) {
-  // This function runs when input value changes
   // Filter out pokemon that contains the value
-  const filteredPokemon = data.filter(({ name }) =>
-    name.toLowerCase().includes(value.toLowerCase())
-  );
+
+  // === Without fuzzy search ===
+  // const filteredPokemon = data.filter(({ name }) =>
+  //   name.toLowerCase().includes(value.toLowerCase())
+  // );
+
+  // === Fuzzy Search Implementation ===
+  // Configs for fuse.js
+  const options = {
+    keys: ["name"],
+    threshold: 0.5,
+  };
+  const fuse = new Fuse(data, options);
+  const filteredPokemon = fuse.search(value); // this stores in 'item' key
+
+  console.log(filteredPokemon);
+
   // Generate list of PokemonCards
-  const pokecardsList = filteredPokemon.map(
-    ({ name, image, description, link }) => {
-      return PokemonCard(image, name, description, link);
-    }
-  );
+  const pokecardsList = filteredPokemon.map(({ item }) => {
+    return PokemonCard(item.image, item.name, item.description, item.link);
+  });
 
   // Render fallback when no matching pokemon found
   if (pokecardsList.length === 0) {
