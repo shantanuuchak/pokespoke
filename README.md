@@ -6,6 +6,7 @@ Displays Pokémon cards from the `data.json` file.
 
 ## Features
 
+- **Search as you type**: Filters out pokemons even in cases of typos using [fuzzy-search](https://www.fusejs.io/)
 - **Keyboard Accessibility**: Press `/` to quickly focus on the search bar.
 - **Graceful Degradation**: Shows a "Pokemon Not Found" card when an invalid Pokémon is entered.
 - **Shuffle Pokémon**: Randomizes Pokémon on every page load using [`array-shuffle`](https://www.npmjs.com/package/array-shuffle).
