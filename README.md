@@ -1,4 +1,4 @@
-# Pokedex
+# Pokespoke
 
 Displays Pokémon cards from the `data.json` file.
 
