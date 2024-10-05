@@ -13,7 +13,7 @@ export default function (src, name, description, visit) {
           </p>
           ${
             visit &&
-            `<a href="${visit}" target="_blank" class="btn btn-primary">Visit</a>`
+            `<a href="${visit}" target="_blank" class="btn btn-warning">Visit</a>`
           }
       </div>
     </div>
