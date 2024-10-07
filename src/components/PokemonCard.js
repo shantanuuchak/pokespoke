@@ -1,3 +1,4 @@
+// The Pokemon Component
 export default function (src, name, description, visit) {
   return `
     <div class="card">

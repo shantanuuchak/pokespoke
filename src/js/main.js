@@ -82,7 +82,7 @@ function handleChange(value) {
 }
 
 // ====== Add listeners ======
-// Debouncer Implmentation
+// Debouncer Implementation
 let debounceTimer;
 searchEl.addEventListener("input", (e) => {
   clearTimeout(debounceTimer);
@@ -92,6 +92,7 @@ searchEl.addEventListener("input", (e) => {
   }, 300);
 });
 
+// === Load Initial List on DOM first Render ===
 document.addEventListener("DOMContentLoaded", () => {
   // List to render on initial load
   const pokemonCollection = data.map(({ name, image, description, link }) => {
@@ -101,6 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPokemon(shuffle(pokemonCollection));
 });
 
+// === Add / Keystroke Accessibility ===
 document.addEventListener("keydown", (e) => {
   if (e.key === "/") {
     // Don't type
