@@ -3,6 +3,7 @@ import shuffle from "array-shuffle";
 import Fuse from "fuse.js";
 
 // ====== General Imports ======
+import "../css/style.scss";
 import data from "./data.json";
 import PokemonCard from "../components/PokemonCard";
 
