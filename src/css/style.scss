@@ -35,17 +35,17 @@ body {
   );
   transition: all ease 1s;
   position: relative;
-}
 
-.card:hover {
-  transform: scale(1.03);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(124, 232, 149) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  &:hover {
+    transform: scale(1.03);
+    background: radial-gradient(
+      328px at 2.9% 15%,
+      rgb(191, 224, 251) 0%,
+      rgb(232, 233, 251) 25.8%,
+      rgb(252, 239, 250) 50.8%,
+      rgb(124, 232, 149) 77.6%,
+      rgb(240, 251, 244) 100.7%
+    );
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
 }
