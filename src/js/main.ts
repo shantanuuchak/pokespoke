@@ -14,9 +14,7 @@ const searchEl = document.querySelector("input");
 // ====== Functions ======
 function renderPokemon(list) {
   // This function takes in a list of PokemonCards and renders them
-
-  console.log(list);
-  pokemonContainer.textContent = "";
+  pokemonContainer!.textContent = "";
   list.forEach((pokemonEl) => {
     const div = document.createElement("div");
     div.classList.add(
@@ -29,23 +27,16 @@ function renderPokemon(list) {
       "px-1"
     );
     div.innerHTML = pokemonEl;
-    pokemonContainer.appendChild(div);
+    pokemonContainer!.appendChild(div);
   });
 }
 
-// This function runs when input value changes
+// Filter out pokemon that contains the value
 function handleChange(value) {
-  // Filter out pokemon that contains the value
-
-  // === Without fuzzy search ===
-  // const filteredPokemon = data.filter(({ name }) =>
-  //   name.toLowerCase().includes(value.toLowerCase())
-  // );
-
-  // === Fuzzy Search Implementation ===
+  // Fuzzy Search
   // Configs for fuse.js
   const options = {
-    keys: ["name"],
+    keys: ["name", "abilities"],
     threshold: 0.5,
   };
   const fuse = new Fuse(data, options);
@@ -72,8 +63,7 @@ function handleChange(value) {
       PokemonCard(
         "https://img.pokemondb.net/sprites/trainers/swsh/raihan.jpg",
         "No match",
-        "Please try another search",
-        false
+        "Please try another search"
       )
     );
   }
@@ -84,7 +74,7 @@ function handleChange(value) {
 
 // ====== Add listeners ======
 // Debouncer Implementation
-let debounceTimer;
+let debounceTimer: number;
 searchEl.addEventListener("input", (e) => {
   clearTimeout(debounceTimer);
 

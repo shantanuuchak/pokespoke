@@ -1,5 +1,10 @@
 // The Pokemon Component
-export default function (src, name, description, visit) {
+export default function (
+  src: string,
+  name: string,
+  description: string,
+  visit?: string
+) {
   return `
     <div class="card">
       <img
