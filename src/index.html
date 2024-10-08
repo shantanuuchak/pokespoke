@@ -6,7 +6,7 @@
     <title>Pokespoke &mdash; I'd use my Masterball to Choose You</title>
     <link
       rel="shortcut icon"
-      href="../assets/favicon.png"
+      href="../public/images/favicon.png"
       type="image/x-icon"
     />
 
@@ -22,11 +22,11 @@
     <!-- 
     MARK: Header
     -->
-    <nav class="navbar">
+    <nav class="navbar p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="/public/images/favicon.png"
+            src="../public/images/favicon.png"
             alt="Logo"
             width="30"
             height="24"
@@ -34,7 +34,6 @@
           />
           Pokespoke
         </a>
-
         <a
           class="btn btn-warning"
           href="https://github.com/shantanuuchak/pokespoke"
@@ -44,15 +43,14 @@
       </div>
     </nav>
 
-    <!-- TODO: -->
     <!-- 
     MARK: Main
     -->
     <main class="container p-4">
-      <h1 class="fs-1 py-3">Pokespoke</h1>
+      <h1 class="fs-1 my-3">Pokespoke &mdash; Catch the Pokemon!</h1>
 
       <!-- Search Input -->
-      <div class="input-group flex-nowrap">
+      <div class="input-group flex-nowrap mb-4">
         <span class="input-group-text" id="addon-wrapping"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -78,16 +76,18 @@
       <!-- Cards -->
       <div class="row d-flex" pokemon-container></div>
     </main>
+
     <!-- 
     MARK: Footer
     -->
     <footer class="d-flex p-3 align-items-end">
       <p class="fs-6 mb-0 container">
-        Copyrights free &copy; Pokespoke. Pokemon data from Pokemon.
+        Copyrights free &copy; Pokespoke. Pokemon data from
+        <a href="https://pokemon.com" target="_blank">Pokemon.com</a>
       </p>
     </footer>
 
-    <!-- Custom Script -->
+    <!-- Scripts -->
     <script src="./js/main.ts" type="module"></script>
   </body>
 </html>
