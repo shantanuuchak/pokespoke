@@ -1,9 +1,10 @@
+import "../css/style.scss";
+
 // === Packages ===
 import shuffle from "array-shuffle";
 import Fuse from "fuse.js";
 
 // === General Imports ===
-import "../css/style.scss";
 import data from "./data.json";
 import PokemonCard from "./components/PokemonCard";
 
@@ -58,6 +59,7 @@ function handleChange(input: string) {
 
   // Function to perform filteration
   function performSearch() {
+    // If input is empty return as-it-is
     if (!input) return pokemonData;
 
     return fuse.search(input).map((result) => result.item);
