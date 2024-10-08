@@ -1,140 +1,267 @@
 [
   {
+    "id": 1,
     "name": "Bulbasaur",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back.",
-    "link": "https://www.pokemon.com/us/pokedex/bulbasaur"
+    "link": "https://www.pokemon.com/us/pokedex/bulbasaur",
+    "abilities": ["Overgrow", "Chlorophyll"]
   },
   {
+    "id": 2,
     "name": "Charmander",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     "description": "Charmander's flame on the tip of its tail indicates its life force.",
-    "link": "https://www.pokemon.com/us/pokedex/charmander"
+    "link": "https://www.pokemon.com/us/pokedex/charmander",
+    "abilities": ["Blaze", "Solar Power"]
   },
   {
+    "id": 3,
     "name": "Squirtle",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     "description": "Squirtle's shell helps it minimize damage from attacks.",
-    "link": "https://www.pokemon.com/us/pokedex/squirtle"
+    "link": "https://www.pokemon.com/us/pokedex/squirtle",
+    "abilities": ["Torrent", "Rain Dish"]
   },
   {
+    "id": 4,
     "name": "Pikachu",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
     "description": "Pikachu generates electricity in the electric pouches on its cheeks.",
-    "link": "https://www.pokemon.com/us/pokedex/pikachu"
+    "link": "https://www.pokemon.com/us/pokedex/pikachu",
+    "abilities": ["Static", "Lightning Rod"]
   },
   {
+    "id": 5,
     "name": "Jigglypuff",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
     "description": "Jigglypuff's songs put people to sleep with a gentle melody.",
-    "link": "https://www.pokemon.com/us/pokedex/jigglypuff"
+    "link": "https://www.pokemon.com/us/pokedex/jigglypuff",
+    "abilities": ["Cute Charm", "Competitive"]
   },
   {
+    "id": 6,
     "name": "Meowth",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
     "description": "Meowth loves anything that shines. It wanders the streets looking for loose change.",
-    "link": "https://www.pokemon.com/us/pokedex/meowth"
+    "link": "https://www.pokemon.com/us/pokedex/meowth",
+    "abilities": ["Pickup", "Technician"]
   },
   {
+    "id": 7,
     "name": "Psyduck",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
     "description": "Psyduck suffers frequent headaches, making it unable to think clearly.",
-    "link": "https://www.pokemon.com/us/pokedex/psyduck"
+    "link": "https://www.pokemon.com/us/pokedex/psyduck",
+    "abilities": ["Damp", "Cloud Nine"]
   },
   {
+    "id": 8,
     "name": "Machop",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
     "description": "Machop trains by lifting Gravelers every day.",
-    "link": "https://www.pokemon.com/us/pokedex/machop"
+    "link": "https://www.pokemon.com/us/pokedex/machop",
+    "abilities": ["Guts", "No Guard"]
   },
   {
+    "id": 9,
     "name": "Geodude",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
     "description": "Geodude climbs mountain paths using its arms.",
-    "link": "https://www.pokemon.com/us/pokedex/geodude"
+    "link": "https://www.pokemon.com/us/pokedex/geodude",
+    "abilities": ["Rock Head", "Sturdy"]
   },
   {
+    "id": 10,
     "name": "Eevee",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
     "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment.",
-    "link": "https://www.pokemon.com/us/pokedex/eevee"
+    "link": "https://www.pokemon.com/us/pokedex/eevee",
+    "abilities": ["Adaptability", "Run Away"]
   },
   {
+    "id": 11,
     "name": "Snorlax",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
     "description": "Snorlax eats nearly 900 pounds of food every day.",
-    "link": "https://www.pokemon.com/us/pokedex/snorlax"
+    "link": "https://www.pokemon.com/us/pokedex/snorlax",
+    "abilities": ["Immunity", "Thick Fat"]
   },
   {
+    "id": 12,
     "name": "Mewtwo",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
     "description": "Mewtwo was created by recombining Mew's genes and is known for its psychic abilities.",
-    "link": "https://www.pokemon.com/us/pokedex/mewtwo"
+    "link": "https://www.pokemon.com/us/pokedex/mewtwo",
+    "abilities": ["Pressure", "Unnerve"]
   },
   {
+    "id": 13,
     "name": "Oddish",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
     "description": "Oddish grows by absorbing moonlight. During the day, it buries itself in the ground.",
-    "link": "https://www.pokemon.com/us/pokedex/oddish"
+    "link": "https://www.pokemon.com/us/pokedex/oddish",
+    "abilities": ["Chlorophyll", "Run Away"]
   },
   {
+    "id": 14,
     "name": "Vulpix",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
     "description": "Vulpix's six beautiful tails gain more warmth as it matures.",
-    "link": "https://www.pokemon.com/us/pokedex/vulpix"
+    "link": "https://www.pokemon.com/us/pokedex/vulpix",
+    "abilities": ["Flash Fire", "Drought"]
   },
   {
+    "id": 15,
     "name": "Growlithe",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
     "description": "Growlithe has a keen sense of smell and will never forget any scent.",
-    "link": "https://www.pokemon.com/us/pokedex/growlithe"
+    "link": "https://www.pokemon.com/us/pokedex/growlithe",
+    "abilities": ["Intimidate", "Flash Fire"]
   },
   {
+    "id": 16,
     "name": "Abra",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
     "description": "Abra sleeps 18 hours a day, using telepathy to sense danger while sleeping.",
-    "link": "https://www.pokemon.com/us/pokedex/abra"
+    "link": "https://www.pokemon.com/us/pokedex/abra",
+    "abilities": ["Synchronize", "Inner Focus"]
   },
   {
+    "id": 17,
     "name": "Gengar",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
     "description": "Gengar is said to emerge from shadows to steal the lives of those who become lost in the mountains.",
-    "link": "https://www.pokemon.com/us/pokedex/gengar"
+    "link": "https://www.pokemon.com/us/pokedex/gengar",
+    "abilities": ["Cursed Body", "Levitate"]
   },
   {
+    "id": 18,
     "name": "Onix",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
     "description": "Onix burrows underground at high speeds and can create tunnels as it goes.",
-    "link": "https://www.pokemon.com/us/pokedex/onix"
+    "link": "https://www.pokemon.com/us/pokedex/onix",
+    "abilities": ["Rock Head", "Sturdy"]
   },
   {
+    "id": 19,
     "name": "Lapras",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
     "description": "Lapras ferries people across bodies of water with its gentle temperament.",
-    "link": "https://www.pokemon.com/us/pokedex/lapras"
+    "link": "https://www.pokemon.com/us/pokedex/lapras",
+    "abilities": ["Water Absorb", "Shell Armor"]
   },
   {
+    "id": 20,
     "name": "Dragonite",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
     "description": "Dragonite can fly faster than the speed of sound and is known for its intelligence.",
-    "link": "https://www.pokemon.com/us/pokedex/dragonite"
+    "link": "https://www.pokemon.com/us/pokedex/dragonite",
+    "abilities": ["Inner Focus", "Multiscale"]
   },
+
   {
+    "id": 21,
     "name": "Magikarp",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
     "description": "Magikarp is virtually useless in battle but evolves into the powerful Gyarados.",
-    "link": "https://www.pokemon.com/us/pokedex/magikarp"
+    "link": "https://www.pokemon.com/us/pokedex/magikarp",
+    "abilities": ["Swift Swim", "Rain Dish"]
   },
   {
+    "id": 22,
     "name": "Rhyhorn",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
     "description": "Rhyhorn charges in a straight line, smashing everything in its path.",
-    "link": "https://www.pokemon.com/us/pokedex/rhyhorn"
+    "link": "https://www.pokemon.com/us/pokedex/rhyhorn",
+    "abilities": ["Rock Head", "Lightning Rod"]
   },
   {
+    "id": 23,
     "name": "Jynx",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
     "description": "Jynx's weird forms of communication sound similar to human speech.",
-    "link": "https://www.pokemon.com/us/pokedex/jynx"
+    "link": "https://www.pokemon.com/us/pokedex/jynx",
+    "abilities": ["Oblivious", "Forewarn"]
+  },
+  {
+    "id": 24,
+    "name": "Sandshrew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+    "description": "Sandshrew's body is covered by a hard shell that protects it from attacks.",
+    "link": "https://www.pokemon.com/us/pokedex/sandshrew",
+    "abilities": ["Sand Veil", "Pickpocket"]
+  },
+  {
+    "id": 25,
+    "name": "Poliwag",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
+    "description": "Poliwag's skin is so thin that you can see the spiral intestines inside.",
+    "link": "https://www.pokemon.com/us/pokedex/poliwag",
+    "abilities": ["Water Absorb", "Swift Swim"]
+  },
+  {
+    "id": 26,
+    "name": "Zubat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+    "description": "Zubat uses ultrasonic waves to detect obstacles and navigate in the dark.",
+    "link": "https://www.pokemon.com/us/pokedex/zubat",
+    "abilities": ["Inner Focus", "Infiltrator"]
+  },
+  {
+    "id": 27,
+    "name": "Pidgey",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+    "description": "Pidgey can easily be found in grassy areas and forests.",
+    "link": "https://www.pokemon.com/us/pokedex/pidgey",
+    "abilities": ["Keen Eye", "Tangled Feet"]
+  },
+  {
+    "id": 28,
+    "name": "Rattata",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+    "description": "Rattata's sharp fangs can easily bite through tough materials.",
+    "link": "https://www.pokemon.com/us/pokedex/rattata",
+    "abilities": ["Run Away", "Guts"]
+  },
+  {
+    "id": 29,
+    "name": "Machoke",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
+    "description": "Machoke's muscles are strong enough to throw a hundred adult humans.",
+    "link": "https://www.pokemon.com/us/pokedex/machoke",
+    "abilities": ["Guts", "No Guard"]
+  },
+  {
+    "id": 30,
+    "name": "Golbat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
+    "description": "Golbat is known for its sharp fangs and its ability to suck blood.",
+    "link": "https://www.pokemon.com/us/pokedex/golbat",
+    "abilities": ["Inner Focus", "Infiltrator"]
+  },
+  {
+    "id": 31,
+    "name": "Pidgeotto",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+    "description": "Pidgeotto is a fierce and territorial Pokémon.",
+    "link": "https://www.pokemon.com/us/pokedex/pidgeotto",
+    "abilities": ["Keen Eye", "Tangled Feet"]
+  },
+  {
+    "id": 32,
+    "name": "Fearow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+    "description": "Fearow's cry can be heard from over a mile away.",
+    "link": "https://www.pokemon.com/us/pokedex/fearow",
+    "abilities": ["Keen Eye", "Sniper"]
+  },
+  {
+    "id": 33,
+    "name": "Seel",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+    "description": "Seel's body is covered in a thick layer of blubber.",
+    "link": "https://www.pokemon.com/us/pokedex/seel",
+    "abilities": ["Thick Fat", "Hydration"]
   }
 ]
